@@ -1,0 +1,30 @@
+{
+  "id": "5252862",
+  "name": "作业2",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "47244584",
+      "name": "239_表情",
+      "font_class": "a-239_biaoqing",
+      "unicode": "e9c5",
+      "unicode_decimal": 59845
+    },
+    {
+      "icon_id": "47244587",
+      "name": "239_电脑",
+      "font_class": "a-239_diannao",
+      "unicode": "e9c6",
+      "unicode_decimal": 59846
+    },
+    {
+      "icon_id": "47244598",
+      "name": "239_理财",
+      "font_class": "a-239_licai",
+      "unicode": "e9c7",
+      "unicode_decimal": 59847
+    }
+  ]
+}

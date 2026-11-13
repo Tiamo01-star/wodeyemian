@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>087杨馨意</title>
+    <link rel="stylesheet" href="./font_5252862_y0aznrmg7r/iconfont.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            color: #fff;
+            font-family: "微软雅黑";
+        }
+        body{
+            background-color: #e5f0ec;
+        }
+        .waicenghezi{
+            width: 160px;
+            margin: 100px auto 0;
+            padding-left: 0;
+        }
+        .yijihezi {
+            width: 160px;
+        }
+        /* 这里原来yijihezi1，改成yijihezi */
+        .yijihezi>li {
+            position: relative;
+            width: 160px;
+            height: 45px;
+            line-height: 45px;
+            background-color: #70bbea;
+            text-align: center;
+            position: relative;
+            margin-bottom: 3px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(109, 153, 165);
+        }
+        .yijihezi>li>a {
+            color: #ffffff;
+            font-size: 17px;
+        }
+        .erjihezi {
+            position: absolute;
+            top: 0;
+            left: 160px;
+            width: 160px;
+            height: 0;
+            overflow: hidden;
+            transition: height 300ms linear;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(109, 153, 165);
+        }
+        .erjihezi li {
+            width: 160px;
+            height: 45px;
+            line-height: 45px;
+            background-color: #99d2f5;
+            text-align: center;
+        }
+        .erjihezi li a {
+            color: #222222;
+            font-size: 16px;
+        }
+        /* hover这里也同步改成yijihezi */
+        .yijihezi>li:hover .erjihezi {
+            height: 135px;
+        }
+        li{
+            list-style-type: none;
+            float: left;
+            margin: auto;
+        }
+        .icon-a-239_biaoqing{
+             font-size: 20px;
+        }
+        .icon-a-239_diannao{
+            font-size: 20px;        
+        }
+        .icon-a-239_licai{
+            font-size: 20px;          
+        }
+    </style>
+</head>
+<body>
+    <div class="waicenghezi">
+        <!-- ul的class，yijihezi1 → yijihezi -->
+        <ul class="yijihezi">
+            <li class="iconfont icon-a-239_biaoqing">
+                <a href="#">娱乐软件</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="#">抖音</a></li>
+                        <li><a href="#">哔哩哔哩</a></li>
+                        <li><a href="#">小红书</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="iconfont icon-a-239_diannao">
+                <a href="#">视频软件</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="#">腾讯视频</a></li>
+                        <li><a href="#">爱奇艺</a></li>
+                        <li><a href="#">优酷</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="iconfont icon-a-239_licai">
+                <a href="#">购物软件</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="#">淘宝</a></li>
+                        <li><a href="#">京东</a></li>
+                        <li><a href="#">拼多多</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
